@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -691,7 +691,6 @@ ul li {
 .line_line {
   border: 2px solid #FFA501;
   width: 60px;
-  margin-left: 460px;
 }
 
 .branch2 {
@@ -705,14 +704,14 @@ ul li {
 }
 
 .experiense {
-  text-align: center;
-  margin-top: 37px;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }
 
 .circle1 {
+  margin-top: 30px;
   position: relative;
   width: 36px;
   height: 36px;
@@ -721,7 +720,8 @@ ul li {
   font-size: 24px;
   font-weight: bold;
   color: black;
-  margin-left: 450px;
+  display: flex;
+  justify-content: center;
 }
 
 .text_useful {
